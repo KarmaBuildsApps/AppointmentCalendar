@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorCellBackground"
+    android:minHeight="@dimen/_50sdp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/gridviewCellText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:minHeight="@dimen/_36sdp"
+        android:minWidth="@dimen/_36sdp"
+        android:text="@string/gridview_cell_text"
+        android:textColor="@color/colorCalendarText"
+
+        android:textSize="12sp" />
+
+
+    <ImageView
+        android:id="@+id/gridviewCellImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+</LinearLayout>
